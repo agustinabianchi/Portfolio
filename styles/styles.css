@@ -1,0 +1,174 @@
+/*comienzo de presentacion css*/
+*{
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+.background{
+    height: 250px;
+    width: 300%;
+}
+
+.contenedor-agusPage {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedor-agusPage-col {
+    width: 50%;
+}
+
+.especificacion .presentacion {
+    font-weight: bold;
+    font-size: 39px;
+}   
+.presentacion{
+    color:#2e2e31;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 800px;
+    margin-bottom: auto;
+    
+    }
+
+.nombre{
+    margin-bottom: 5px;
+    margin-top: 0%;
+    color: #6bcced;
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.descripcion{
+    color: #616161;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+p {
+    display: block;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 1.4;
+}
+
+.btn-contact{
+    background-color: #6bcced;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 100px;
+    font-weight: 700;
+
+}
+.button {
+    background-color: #6bcced;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 100px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 55px;
+}
+
+.button:hover {
+    box-shadow: 0px 19px 14px -15px #cfcbcb
+}
+.desarrolladora{
+    display: flex;
+    width: 90%;
+    flex-basis: 100px;
+    flex-grow: 1 ;
+    text-align: center;
+    
+}
+main{
+    column-count:2;
+}
+
+
+
+header section{
+    
+}
+header section:hover {
+    box-shadow: 0px 19px 14px -15px #cfcbcb;
+        
+}
+.open-menu-btn{ 
+    background-color: #6bcced;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 100px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.open-menu-btn:hover { 
+    background-color: #1e99c2;
+    
+}
+
+.nav-header, .nav-header ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav-header ul {
+    
+}
+
+
+
+.nav-header ul li {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nav-header ul li a {
+    
+}
+
+.nav-item{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: start;
+    text-decoration: none;
+
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+    scrollbar-shadow-color: antiquewhite;
+}
+.azul-palido{
+    background-color:#E6FFF4;
+}
+
+.azul{
+    background-color:#6BCCED;
+}
+
+/* Agus Page */
+
+#agusPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#agusPage .especificacion {
+    
+}
+
